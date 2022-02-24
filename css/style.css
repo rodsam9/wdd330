@@ -1,9 +1,33 @@
+#main {
+    background-color: aquamarine;
+}
 .page-title {
     text-align: center;
     font-size: 50px;
     padding: 20px;
     margin: 0 auto;
-    background-color: aquamarine;
+    
+}
+.directory {
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+}
+.directory a:hover {
+    color: red;
+}
+.notes a:hover {
+    color: red;
 }
 .notes, .week-title {
     margin-left: 15px;
