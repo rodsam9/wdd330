@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development - Portfolio - Lesson 03</title>
+    <meta name="description" content="This webpage contains links to access lesson 03 activities and notes." />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script type="text/javascript" src="functions.js" defer></script>
+</head>
+
+<body>
+    <h1 class="week-title">Lesson 03</h1>
+    <div class="notes">
+        <a href="../index.html">Go back to Main page</a>
+        <h3>Notes</h3>
+        <h4>The Window Object</h4>
+        <ul>
+            <li>Using window.alert will display a message in a dialog box. Ex. window.alert('Hello World!')</li>
+            <li>Using window.confirm() method will stop the execution of the program and display confirmation box. Ex.
+                window.confirm('Do you wish to continue?')</li>
+            <li>Using window.prompt() will stop the program and ask for user to input in the dialog box. Ex.
+                window.prompt('Please enter your full name:')</li>
+            <li> You can use window.open(enter url) to have a new window open to that specific url you entered.</li>
+            <li>You use window.close() when you want to close a window.</li>
+        </ul>
+        <h4>The Document Object</h4>
+        <ul>
+            <li>You can use a document.write() to display a string of text on the webpage.</li>
+            <li>You don't really want to use document.write(), it's better to jsut stick with html so you don't mix up
+                javascript with it.</li>
+        </ul>
+        <h4>Cookies</h4>
+        <ul>
+            <li>Cookies are files with information saved that are on user's computers. Cookies are used to keep track of
+                user choices, user preferences, authentication, etc.</li>
+            <li>You assign a cookie by using document.cookie = 'whatever cookie you want to be stored'</li>
+            <li>Applications that contains sensitive information shouldn't rely on cookie expiry.</li>
+        </ul>
+        <h4>Timing Functions</h4>
+        <ul>
+            <li>setTimeout() acepts callback and number of miliseconds for how long of delay before it calls.</li>
+            <li>setInterval() is similar to setTimeout() but this method will continue calling after certain number of
+                milliseconds.</li>
+        </ul>
+    </div>
+</body>
+
+</html>
