@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development - Portfolio - Lesson 05</title>
+    <meta name="description" content="This webpage contains links to access lesson 05 activities and notes." />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script type="text/javascript" src="functions.js" defer></script>
+</head>
+
+<body>
+    <h1 class="week-title">Lesson 05</h1>
+    <div class="notes">
+        <a href="../index.html">Go back to Main page</a>
+        <h3>Notes</h3>
+        <h4>Ajax</h4>
+        <ul>
+            <li>Using Ajax is a way to update web pages without reloading the page.</li>
+            <li>This has made web pages no longer static, but instead dynamic.</li>
+            <li>Ajax allows javascript to request information from the server in place of the client.</li>
+        </ul>
+        <h4>The Fetch API</h4>
+        <ul>
+            <li>When fetching an API, you are requesting and sending data across the internet.</li>
+            <li>You use fetch(enter url) to gather data from the resource you wish to use.</li>
+            <li>Using text() method transofrm the text into a JS string.</li>
+            <li>The blobl() method is used to read raw data, such as an image or spreadsheet.</li>
+            <li>One of the most common methods in Ajax is the json() method.</li>
+        </ul>
+        <form id='todo' action='https://jsonplaceholder.typicode.com/todos' method='POST'>
+            <input type='text' name='task' placeholder='Add Task' autofocus required>
+            <button type='submit'>Add Task</button>
+        </form>
+        <script src='main.js'></script>
+    </div>
+</body>
+
+</html>
