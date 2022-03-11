@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development - Portfolio - Lesson 06</title>
+    <meta name="description" content="This webpage contains links to access lesson 06 activities and notes." />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script type="text/javascript" src="functions.js" defer></script>
+</head>
+
+<body>
+    <h1 class="week-title">Lesson 06</h1>
+    <div class="notes">
+        <a href="../index.html">Go back to Main page</a>
+        <h3>Notes</h3>
+        <h4>Forms</h4>
+        <ul>
+            <li>You can use a form tag that takes input fields, buttons, menus, etc. These are great to use for multiple
+                things, such as registration form, login form, etc. </li>
+            <li>Here goes a simple form where you can type what you want to search then click button to submit.</li>
+            <form name='search' action='/search'>
+                <input name='searchInput'>
+                <button type='submit'>Search</button>
+            </form>
+        </ul>
+        <h4>Input Fields</h4>
+        <ul>
+            <li>There are multiple kinds of input types you can use. Here are a few.</li>
+            <li>Text Input</li>
+            <label for="animal-name">Type whatever you want</label>
+            <input type="text" id="animal-name" value="Anything">
+            <li>Password Input (Notice that when user types, the characters are hidden.)</li>
+            <label for="secretPassword">Type your password</label>
+            <input type="password" id="secretPassword">
+            <li>Checkbox Input (Can check one or multiple options)</li>
+            <label for='flight'>Flight:
+                <input type='checkbox' id='flight' value='Flight' name='powers'>
+            </label>
+            <label for='strength'>Super Strength:
+                <input type='checkbox' id='strength' value='Strength' name='powers'>
+            </label>
+            <label for='speed'>Super Speed:
+                <input type='checkbox' id='speed' value='Super Speed' name='powers'>
+            </label>
+            <label for='energy'>Energy Blasts:
+                <input type='checkbox' id='energy' value='Energy Blasts' name='powers'>
+            </label>
+            <label for='telekinesis'>Telekinesis:
+                <input type='checkbox' id='telekinesis' value='Telekinesis' name='powers'>
+            </label>
+            <li>Radio Button Input(Only one is selected)</li>
+            <label for='hero'>Hero:
+                <input type='radio' name='category' value='Hero' id='hero'>
+            </label>
+            <label for='villain'>Villain:
+                <input type='radio' name='category' value='Villain' id='villain'>
+            </label>
+            <label for='anti-hero'>Anti-Hero:
+                <input type='radio' name='category' value='Antihero' id='anti-hero'>
+            </label>
+            <li> There are many kinds of inputs.</li>
+        </ul>
+        <h4>Client Side Validation</h4>
+        <ul>
+            <li>This helps ensure that all forms are filled out and are in correct format.</li>
+            <li>Error messages can pop up if some form wasn't filled out right.</li>
+        </ul>
+    </div>
+</body>
+
+</html>
