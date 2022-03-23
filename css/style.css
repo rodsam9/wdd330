@@ -48,7 +48,9 @@ a{
 .animate {
     animation: slide-right ease 2s;
 }
-
+.video {
+    width: 200px;
+}
 @keyframes slide-right {
     0% {
         transform: translateX(0);
