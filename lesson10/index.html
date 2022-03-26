@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development - Portfolio - Lesson 10</title>
+    <meta name="description" content="This webpage contains links to access lesson 10 activities and notes." />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script type="text/javascript" src="../lesson09/js/script.js" defer></script>
+</head>
+
+<body>
+    <h1 class="week-title">Lesson 10</h1>
+    <div class="notes">
+        <a href="../index.html">Go back to Main page</a>
+        <h3>Notes</h3>
+        <h4>JS Execution Context</h4>
+        <ul>
+            <li>When Js code is being ran, it creates execution contexts.</li>
+            <li> There are two phases, the creating phase and the execution phase.</li>
+            <h3>Creation Phase</h3>
+            <li>During the creation phase, it creates a global object window in web browser, then creates a "this"
+                object. It then sets up a memory for storing varialbes and references.</li>
+            <h3>Execution Phase</h3>
+            <li>JS engine runs the code line by line and assigns values to variables and runs function calls.</li>
+            <li>It creates a new function execution context for every function call. This is similar to global execution
+                context, but this time it creates argument objects instead of a global object.</li>
+        </ul>
+        <h4>Call Stack</h4>
+        <ul class="code-example">
+            <li>Call stacks help keep track of what function is being ran or called.</li>
+            <p>function announcement() { </p>
+            <p>sayHelloWorld();
+                }</p>
+            function sayHelloWorld() {
+            <p>return "Hello World!";
+                }
+            </p>
+            announcement();
+
+
+        </ul>
+        <p><b>In the example above, all the functions are ignored until announcement function is called. The
+                announcement function gets added to the call stack.</b></p>
+
+    </div>
+</body>
+
+</html>

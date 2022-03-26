@@ -51,6 +51,11 @@ a{
 .video {
     width: 200px;
 }
+.code-example {
+    color: rgb(216, 25, 25);
+    background-color: #ddd;
+    padding: 5px;
+}
 @keyframes slide-right {
     0% {
         transform: translateX(0);
